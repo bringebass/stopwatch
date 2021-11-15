@@ -1,6 +1,7 @@
 import React, { useReducer, useEffect, useRef } from 'react'
 
 //this is a stopwatch
+// its built with the react hook useEffect and others
 
 function reducer(state, action) {
   if (action.type === 'run') {
